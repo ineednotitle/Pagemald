@@ -1,0 +1,9 @@
+{
+  "id": "make-md",
+  "name": "PageMeld",
+  "version": "1.3.19",
+  "minAppVersion": "0.16.0",
+  "description": "PageMeld brings flexible organization, databases, and Notion-style editing to your notes.",
+  "author": "ineednotitle",
+  "isDesktopOnly": false
+}
