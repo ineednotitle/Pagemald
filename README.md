@@ -72,3 +72,9 @@ https://github.com/mdelobelle/metadatamenu
 Some of our inspiration came from the following projects
 https://github.com/chetachiezikeuzor/cMenu-Plugin
 https://github.com/ozntel/file-tree-alternative
+
+### Harper grammar check
+
+Run **PageMeld: Check grammar with Harper** from the command palette while editing a Markdown note. Harper checks the current note locally using its Markdown parser; no note text is sent to a server. Choose a suggested correction to apply it, then run the command again to review remaining issues. If the note changes while the results are open, run the check again before applying a correction. Harper uses its default American English rules. Large notes may briefly pause the editor while being checked.
+
+Harper is bundled in `main.js`, so standard Obsidian and BRAT installations work without extra files. The integration uses Harper.js 2.0.0 under Apache 2.0; see `Harper-LICENSE.txt`. To rebuild the integration appended to the distributed plugin bundle, run `npm ci` and `npm run build:harper`.
